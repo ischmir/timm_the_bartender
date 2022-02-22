@@ -1,10 +1,29 @@
 body{
-    margin: 0%;
-
+    margin: 0;
 }
 
-/*header{
-    background-color: #231f20;
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-}*/
+.wrapper {
+display: grid;
+grid-template-columns: repeat(12);
+grid-template-rows: 40px 100px 40px;
+}
+
+header {
+    grid-column: span 11;
+    background-color: #f08090;
+}
+
+nav {
+    grid-column: span 1;
+    background-color: #80f090;
+}
+
+main {
+    grid-column: span 12;
+    background-color: #8090f0;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: #cc6b51;
+}
