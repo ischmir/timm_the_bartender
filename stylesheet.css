@@ -27,3 +27,8 @@ footer {
     grid-column: span 12;
     background-color: #cc6b51;
 }
+
+.socialmedia-icons {
+    color: #000;
+    size: 2rem;
+}
