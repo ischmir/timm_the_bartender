@@ -1,34 +1,111 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+}
+body{
+    
 }
 
-.wrapper {
-display: grid;
-grid-template-columns: repeat(12);
-grid-template-rows: 40px 100px 40px;
+/* START: CSS for all Basic Text Tags on Mobile */
+h1{
+    font-family: 'poppins';
+    font-size: 40px;
 }
+h2{
+    font-family: 'poppins';
+    font-size: 25px;
+}
+h3{
+    font-family: 'poppins';
+    font-size: 20px;
+}
+p{
+    font-family:'poppins';
+    font-size: 15px;
+}
+/* END: CSS for all Basic Text Tags on Mobile */
 
 header {
-    grid-column: span 11;
     background-color: #f08090;
 }
 
 nav {
-    grid-column: span 1;
     background-color: #80f090;
 }
 
 main {
-    grid-column: span 12;
     background-color: #8090f0;
 }
 
+/* START: Footer */
 footer {
-    grid-column: span 12;
     background-color: #cc6b51;
 }
 
-.socialmedia-icons {
-    color: #000;
+/* START: Logo Footer */
+.logo_div{
+    display: flex;
+    align-content: center;
+}
+.logo_img{
+    margin: auto;
+    margin-top: 2vh;
+    width: 150px;
+    height: 150px;
+}
+/* END: Logo Footer */
+
+
+/* START: Footer */
+footer h2,h3,p{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icon img{
+    height: 5%;
+    width: 5%;   
+    padding-top: 2px;
+    padding-right: 10px;
+
+}
+
+.socialmedia-icons{
+    display: flex;
     
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.socialmedia-icons img {
+    height: 50%;
+    width: 50%;
+}
+
+
+@media  and (min-width: 500px) {
+    /* START: CSS for all Basic Text Tags on Mobile*/
+h1{
+    font-family: 'poppins';
+    font-size: 50;
+}
+
+h2{
+    font-family: 'poppins';
+    font-size: 35px;
+}
+h3{
+    font-family: 'poppins';
+    font-size: 25px;
+}
+p{
+    font-family:'poppins';
+    font-size: 20px;
+}
+/* END: CSS for all Basic Text Tags on Mobile*/
 }
