@@ -1,9 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
-}
-body{
-    
+    margin: 0%;
+    padding: 0%;
 }
 
 /* START: CSS for all Basic Text Tags on Mobile */
@@ -21,9 +18,12 @@ h3{
 }
 p{
     font-family:'poppins';
-    font-size: 15px;
+    font-size: 12px;
 }
 /* END: CSS for all Basic Text Tags on Mobile */
+body{
+    background-color: #231F20;
+}
 
 header {
     background-color: #f08090;
@@ -39,7 +39,8 @@ main {
 
 /* START: Footer */
 footer {
-    background-color: #cc6b51;
+    background-color: #231F20;
+    height: fit-content;
 }
 
 /* START: Logo Footer */
@@ -57,42 +58,74 @@ footer {
 
 
 /* START: Footer */
-footer h2,h3,p{
+footer h2{
+    margin-left: 20%;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    color: #fff;
+}
+footer h3{
     text-align: center;
-    margin-bottom: 2vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    color: #fff;
 }
-.contact-icon{
-    display: flex;
-    justify-content: center;
+footer p{
+    margin-left: 5%;
+    text-align: left;
+    padding-bottom: 2vh;
+    color: #fff;
+    font-size: 16px;
 }
 
-.contact-icon img{
-    height: 5%;
-    width: 5%;   
-    padding-top: 2px;
+.service ion-icon{
+    color: #fff;
     padding-right: 10px;
+    font-size: 25px;
+}
+.inline-icon{
+    display: flex;
+}
+.footer-grid{
+    display: grid;
+    place-items:center;
+    grid-template-columns: 2fr 3fr 2fr;
+}
+.kontakt-service {
+    margin-left: 25%;
+}
 
+
+.inline-icon ion-icon{
+    color: #fff;
+    padding-right: 10px;
+    font-size: 30px;
 }
 
 .socialmedia-icons{
     display: flex;
-    
     justify-content: space-around;
     text-align: center;
 
 }
-
-.socialmedia-icons img {
-    height: 50%;
-    width: 50%;
+.socialmedia-icons ion-icon {
+    font-size: 200%;
+    margin-bottom: 40px;
+    color: #fff;
 }
 
+.copyright{
+    padding-bottom: 0px;
+    margin-left: 5%;
+    text-align: center;
+}
 
-@media  and (min-width: 500px) {
-    /* START: CSS for all Basic Text Tags on Mobile*/
+/* START: DESKTOP */
+@media screen and (min-width: 500px) {
+    /* START: CSS for all Basic Text Tags on Desktop*/
 h1{
     font-family: 'poppins';
-    font-size: 50;
+    font-size: 50px;
 }
 
 h2{
@@ -107,5 +140,5 @@ p{
     font-family:'poppins';
     font-size: 20px;
 }
-/* END: CSS for all Basic Text Tags on Mobile*/
+/* END: CSS for all Basic Text Tags on Desktop*/
 }
