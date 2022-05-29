@@ -23,6 +23,7 @@ p{
 /* END: CSS for all Basic Text Tags on Mobile */
 body{
     background-color: #231F20;
+    width: 100vw;
 }
 
 header {
@@ -89,7 +90,7 @@ footer p{
 .footer-grid{
     display: grid;
     place-items:center;
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .kontakt-service {
     margin-left: 25%;
