@@ -11,14 +11,17 @@ h1{
 h2{
     font-family: 'poppins';
     font-size: 25px;
+    color: #fff;
 }
 h3{
     font-family: 'poppins';
     font-size: 20px;
+    color: #fff;
 }
 p{
     font-family:'poppins';
     font-size: 12px;
+    color: #fff;
 }
 /* END: CSS for all Basic Text Tags on Mobile */
 body{
@@ -86,21 +89,30 @@ footer p{
 }
 .inline-icon{
     display: flex;
+    margin-top: 10px;
 }
 .footer-grid{
     display: grid;
     place-items:center;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.kontakt-service {
-    margin-left: 25%;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
+.footer-grid h2{
+    margin: 0px;
+    text-align: center;
+}
 
 .inline-icon ion-icon{
     color: #fff;
     padding-right: 10px;
     font-size: 30px;
+}
+
+.inline-icon p{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
 }
 
 .socialmedia-icons{
