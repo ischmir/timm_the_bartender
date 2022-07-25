@@ -95,6 +95,7 @@ footer p{
     display: grid;
     place-items:center;
     grid-template-columns: 1fr 2fr 1fr;
+    
 }
 
 .footer-grid h2{
